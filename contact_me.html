@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <meta name="description"
         content="Get in Touch with Alejandro Aguirre | Reach Out for IT Project Management Inquiries | Let's Collaborate on Your Next CRO Project | Contact Me Today ">
@@ -47,54 +47,63 @@
     <main>
         <section>
             <!-- Hero -->
-            <div class="p-5 text-center bg-image" style="background-image: url('./images/education_bg.png');
+            <div class="p-5 text-center bg-image" style="background-image: url('./images/contactme_bg.png');
                 height: 300px">
 
                 <div class="d-flex justify-content-center align-items-center h-100">
                     <h1 class="w_header mb-3">Contact me</h1>
                 </div>
-
             </div>
-            <!-- Hero -->
         </section>
-        <div class="blue_header text-center pt-5 pb-5 fw-bold">Studies</div>
-        <div class="d-flex justify-content-center">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img_education image-container pb-5" style="max-width: 18rem;">
-                        <img src="/images/studies_LeftImage.png" alt="IT mobile showing technology badges" class="rounded img-fluid" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="studies_heading fw-semibold lh-1 pb-3 pt-4">Visual Designer (UX/UI Specialist) </div>
-                    <p class="studies_p pb-3">2006 - 2011. Universidad de Caldas</p>
-                    <div class="studies_heading fw-semibold lh-1 pb-3">UX/UI </div>
-                    <p class="studies_p pb-3">2023 (April - August). Coderhouse</p>
-                    <div class="studies_heading fw-semibold lh-1 pb-3">Product Manager</div>
-                    <p class="studies_p pb-3">2023 (January - March). Coderhouse</p>
-                    <div class="studies_heading fw-semibold lh-1 pb-3">Diplomate on Marketing, online advertising and
-                        design</div>
-                    <p class="studies_p pb-3">2015 (120 Hours). Universidad de Caldas</p>
-                </div>
-            </div>
-        </div>
-        <div class="text-light custom-bg blue_header text-center pt-5 pb-5 fw-bold">Certifications</div>
-        <div class="custom-bg d-flex justify-content-center pt-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="image-container pb-5" style="max-width: 18rem;">
-                        <img src="/images/certifications_LeftImage.png" alt="IT Certifications" class="img_education rounded img-fluid" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-light studies_heading fw-semibold lh-1 pb-3 pt-4">Dynamic Yield Business Certified</div>
-                    <p class="text-light studies_p pb-3">2023</p>
-                    <div class="text-light studies_heading fw-semibold lh-1 pb-3">Google Analytics 4 Certified</div>
-                    <p class="text-light studies_p pb-3">2023</p>
-                    <div class="text-light studies_heading fw-semibold lh-1 pb-3">Google Tag Manager Certified</div>
-                    <p class="text-light studies_p pb-3">2023</p>
-            </div>
-        </div>
+        <!-- Hero -->
+
+        <p class="subtitle--description container text-secondary pt-5 pb-5 px-5">Do you have a project or role in your company that fits my profile? I'm eager to start working! Please provide your contact information and I'll make sure to answer as soon as possible .</p>
+        <!-- Wrapper container -->
+<div class="container py-4 form--box pb-5 mb-5">
+
+    <!-- Bootstrap 5 starter form -->
+    <form id="contactForm">
+  
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label" for="name">Name</label>
+        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+      </div>
+  
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">Email Address</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+      </div>
+  
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+        <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+      </div>
+  
+      <!-- Form submissions success message -->
+      <div class="d-none" id="submitSuccessMessage">
+        <div class="text-center mb-3">Form submission successful!</div>
+      </div>
+  
+      <!-- Form submissions error message -->
+      <div class="d-none" id="submitErrorMessage">
+        <div class="text-center text-danger mb-3">Error sending message!</div>
+      </div>
+  
+      <!-- Form submit button -->
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+      </div>
+  
+    </form>
+  
+  </div>
     </main>
     <footer>
         <div class="bottom_bar">

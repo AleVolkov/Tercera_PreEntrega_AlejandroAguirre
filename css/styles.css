@@ -194,4 +194,20 @@ h3.skills_bottom {
   color: rgba(255, 255, 255, 0.6980392157);
 }
 
+.subtitle--description {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form--box {
+  width: 40em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.lighterblue {
+  color:#94b6ff ;
+}
+
 /*# sourceMappingURL=styles.css.map */
